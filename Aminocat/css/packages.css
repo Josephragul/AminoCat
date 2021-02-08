@@ -1,0 +1,1575 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: montserrat;
+}
+
+header {
+    width: 100%;
+}
+
+@media screen and (min-width: 992px) {
+    .section-center {
+        width: 100%;
+    }
+}
+
+/* Slider */
+
+.slider-section2 {
+    background-image: url('../assects/bg1.jpg');
+    background-position: center;
+    background-size: cover;
+    top: 0;
+    position: absolute;
+    z-index: -1;
+    min-height: 100vh;
+    width: 100%;
+    
+}
+
+.slider-content span {
+    display: grid;
+    margin-top: 25%;
+    font-size: 5rem;
+    color: #ffff;
+    place-items: center;
+    padding-left: 30%;
+}
+
+
+/* production-section */
+
+.production-section {
+    width: 100%;
+    min-height: 100vh;
+    margin-top: 28%;
+}
+
+.production-heading {
+    width: 100%;
+    height: 70vh;
+    background-color: #fffefe;
+}
+
+.production-heading h1 {
+    color: #ffff;
+    text-align: center;
+    padding-top: 50px;
+    font-size: 45px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.production-heading hr {
+    margin-top: 30px;
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid #ff7300;
+}
+
+.card-section {
+    width: 100%;
+    display: flex;
+    margin: 150px 30px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+    padding-bottom: 30px;
+}
+
+.card h2 {
+    color: #ffff;
+    text-align: center;
+    margin-top: 25PX;
+}
+
+.card {
+    width: 30%;
+    height: 100vh;
+    border: #ff7300 1px solid;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 250px;
+    padding-bottom: 150px;
+}
+
+.card .title {
+    background-color: #ff7300;
+    height: 70px;
+    margin-top: -25px;
+}
+
+.card .title h2 {
+    color: #191919;
+}
+
+.card .title h2 {
+    padding-top: 10px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-size: 32px;
+    color: #020202;
+}
+
+.card1 .title {
+    background-color: #191919;
+}
+
+.card1 .title h2 {
+    color: #ff7300;
+}
+
+.card2 .title h2 {
+    color: #ff7300;
+}
+
+.card2 .title {
+    background-color: #191919;
+}
+
+.card h2 {
+    color: #ffff;
+    text-align: center;
+    margin-top: 25px;
+}
+
+.card img {
+    width: 100%;
+    margin-top: 10px;
+}
+
+.feature-section {
+    padding-top: 30px;
+    height: 35vh;
+    border-radius: 0;
+}
+
+.card .feature-section {
+    background-color: #191919;
+    color: #f1f1f1;
+    text-align: center;
+}
+
+.card .feature-section p,
+.feature-section2 p {
+    font-size: 1.2rem;
+    padding: 10px;
+    font-family: serif;
+}
+
+.card .feature-section span,
+.feature-section2 span {
+    font-size: 3.2rem;
+    font-weight: bold;
+}
+
+.card1 .feature-section {
+    background-color: #ff7300;
+    color: #f1f1f1;
+}
+
+.card2 .feature-section {
+    background-color: #ff7300;
+    color: #f1f1f1;
+}
+
+.card1 .feature-section,
+.card2 .feature-section {
+    text-align: center;
+}
+
+.feature-section2 {
+    text-align: center;
+    background-color: #ff7300;
+    color: #f1f1f1;
+    padding-top: 30px;
+    height: 35vh;
+    border-radius: 0;
+}
+
+.card1 .feature-section p,
+.card2 .feature-section p {
+    font-size: 1.2rem;
+    padding: 10px;
+    font-family: serif;
+}
+
+.card1 .feature-section p,
+.card2 .feature-section p {
+    font-size: 1.2rem;
+    padding: 10px;
+    font-family: serif;
+}
+
+.card1 .feature-section span,
+.card2 .feature-section span {
+    font-size: 3.2rem;
+    font-weight: bold;
+}
+
+.feature-content {
+    width: 100%;
+    height: 67vh;
+    background-color: #fcfeff;
+}
+
+.card .feature-content,
+.card1 .feature-content,
+.card2 .feature-content {
+    text-align: justify;
+    padding: 2rem;
+    line-height: 2.2rem;
+    font-size: 1.4rem;
+    font-weight: normal;
+    color: #191919;
+}
+
+.card .feature-content .nav-btn,
+.card1 .feature-content .nav-btn,
+.card2 .feature-content .nav-btn {
+    text-align: center;
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.card .feature-content .btn-bottom {
+    margin-top: 33.5vh;
+}
+
+.card .feature-content .btn-bottom2 {
+    margin-top: 7.5vh;
+    display: block;
+}
+
+.card5 .title {
+    background-color: #191919;
+}
+
+.card5 .title h2 {
+    color: #ff7300;
+}
+
+.card5 p {
+    margin-top: -0vh;
+    width: 100%;
+    line-height: 2rem;
+    margin-bottom: 2.5vh;
+}
+
+.card2.feature-content2 p {
+    text-align: justify;
+    padding: 2rem;
+    line-height: 2.2rem;
+    font-size: 1.4rem;
+    font-weight: normal;
+    color: #ffffff;
+}
+
+
+/* Service-section */
+
+.service-section {
+    width: 100%;
+    margin-top: 150px;
+    min-height: 100vh;
+}
+
+.service-heading {
+    width: 100%;
+    height: 70vh;
+    background-color: #ff7300;
+}
+
+.service-heading h1 {
+    color: rgb(34, 33, 33);
+    text-align: center;
+    padding-top: 50px;
+    font-size: 45px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.service-heading hr {
+    margin-top: 30px;
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid #ffffff;
+}
+
+.card-section {
+    width: 100%;
+    height: auto;
+    display: flex;
+    margin: -150px 30px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+}
+
+.service-card {
+    width: 40%;
+    height: 60vh;
+    border: 4px #fff solid;
+    opacity: 10;
+    background-color: #ffffff;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.service-card p {
+    display: grid;
+    place-items: center;
+    color: #fff;
+    font-size: 30px;
+    margin-top: 30%;
+    font-weight: 700;
+    opacity: 1;
+}
+
+.card3 {
+    background-image: url('/assects/s1.jpg');
+    background-position: center;
+    background-size: cover;
+    opacity: 0.9;
+    border-bottom-left-radius: 50px;
+    transition: 0.5s;
+}
+
+.card4 {
+    background-image: url('/assects/s2.jpg');
+    background-position: center;
+    background-size: cover;
+    opacity: 0.9;
+    border-top-right-radius: 50px;
+    transition: 0.5s;
+}
+
+
+/* fOOTER */
+
+.footer {
+    width: 100%;
+}
+
+.footer-top {
+    height: 8vh;
+    background-color: #ff7300;
+    color: #fff;
+    padding: 15px;
+}
+
+.footer-top a {
+    padding: 10px 10px;
+    color: #ffff;
+}
+
+.footer-top a:hover {
+    color: #333;
+}
+
+.footer-last {
+    float: right;
+}
+
+.footer-bottom {
+    color: #ffffff;
+    display: grid;
+    place-items: center;
+    height: 8vh;
+    background-color: #191919;
+    width: 100%;
+}
+
+
+/* Responsive */
+
+@media screen and (max-width: 1440px) {
+    body {
+        width: 100%;
+    }
+
+    header {
+        width: 100%;
+    }
+
+    nav {
+        background: transparent;
+        height: 70px;
+        width: 100%;
+        margin-top: -50px;
+        padding: 2rem;
+    }
+
+    label.logo {
+        color: white;
+        position: absolute;
+        margin-top: 50px;
+    }
+
+    nav ul {
+        color: #fff;
+        margin-top: 50px;
+        display: block;
+    }
+
+    nav ul li a {
+        color: #f1f1f1;
+    }
+
+    .checkbtn {
+        display: none;
+    }
+
+    #check {
+        display: none;
+    }
+
+    /* Slider */
+    .slider-section {
+        background-image: url('/assects/bg.jpg');
+        background-position: center;
+        background-size: cover;
+        top: 0;
+        position: absolute;
+        z-index: -1;
+        min-height: 100vh;
+        width: 100%;
+        margin-bottom: 100px;
+    }
+
+    .slider-content span {
+        display: flex;
+        margin-top: 20%;
+        font-size: 3rem;
+        color: #ffff;
+    }
+
+    /* production-section */
+    .production-section {
+        width: 100%;
+        min-height: 100vh;
+        margin-top: 90vh;
+    }
+
+    .production-heading {
+        width: 100%;
+        height: 70vh;
+        background-color: #fffefe;
+    }
+
+    .production-heading h1 {
+        color: #ffff;
+        text-align: center;
+        padding-top: 50px;
+        font-size: 45px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    .production-heading hr {
+        margin-top: 30px;
+        width: 30%;
+        margin-left: auto;
+        margin-right: auto;
+        border: 1px solid #ff7300;
+    }
+
+    .card-section {
+        width: 100%;
+        min-height: auto;
+        display: flex;
+        margin: 150px 30px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 30px;
+    }
+
+    .card h2 {
+        color: #ffff;
+        text-align: center;
+        margin-top: 25PX;
+    }
+
+    .card {
+        width: 30%;
+        min-height: 220vh;
+        border: #ff7300 1px solid;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 250px;
+        margin-bottom: 50px;
+    }
+
+    .card .title {
+        background-color: #ff7300;
+        margin-top: -25px;
+    }
+
+    .card .title h2 {
+        color: #191919;
+    }
+
+    .card .title h2 {
+        padding-top: 10px;
+        font-family: 'Courier New', Courier, monospace;
+        font-weight: bold;
+        font-size: 32px;
+        color: #020202;
+    }
+
+    .card1 .title {
+        background-color: #191919;
+    }
+
+    .card1 .title h2 {
+        color: #ff7300;
+    }
+
+    .card2 .title h2 {
+        color: #ff7300;
+    }
+
+    .card2 .title {
+        background-color: #191919;
+    }
+
+    .card h2 {
+        color: #ffff;
+        text-align: center;
+        margin-top: 25px;
+    }
+
+    .card img {
+        width: 100%;
+        margin-top: 10px;
+    }
+
+    .feature-section {
+        padding-top: 30px;
+        height: 40vh;
+        border-radius: 0;
+    }
+
+    .card .feature-section {
+        background-color: #191919;
+        color: #f1f1f1;
+        text-align: center;
+    }
+
+    .card .feature-section p,
+    .feature-section2 p {
+        font-size: 1.2rem;
+        padding: 10px;
+        font-family: serif;
+    }
+
+    .card .feature-section span,
+    .feature-section2 span {
+        font-size: 3.2rem;
+        font-weight: bold;
+    }
+
+    .card1 .feature-section {
+        background-color: #ff7300;
+        color: #f1f1f1;
+    }
+
+    .card2 .feature-section {
+        background-color: #ff7300;
+        color: #f1f1f1;
+    }
+
+    .card1 .feature-section,
+    .card2 .feature-section {
+        text-align: center;
+    }
+
+    .feature-section2 {
+        text-align: center;
+        background-color: #ff7300;
+        color: #f1f1f1;
+        padding-top: 30px;
+        border-radius: 0;
+        height: 40vh;
+    }
+
+    .card1 .feature-section p,
+    .card2 .feature-section p {
+        font-size: 1.2rem;
+        padding: 10px;
+        font-family: serif;
+    }
+
+    .card1 .feature-section p,
+    .card2 .feature-section p {
+        font-size: 1.2rem;
+        padding: 10px;
+        font-family: serif;
+    }
+
+    .card1 .feature-section span,
+    .card2 .feature-section span {
+        font-size: 3.2rem;
+        font-weight: bold;
+    }
+
+    .feature-content {
+        width: 100%;
+        height: 67vh;
+        background-color: #fcfeff;
+    }
+
+    .card .feature-content,
+    .card1 .feature-content,
+    .card2 .feature-content {
+        text-align: justify;
+        padding: 2rem;
+        line-height: 2.2rem;
+        font-size: 1.4rem;
+        font-weight: normal;
+        color: #191919;
+    }
+
+    .card .feature-content .nav-btn,
+    .card1 .feature-content .nav-btn,
+    .card2 .feature-content .nav-btn {
+        text-align: center;
+        width: 100%;
+        margin-top: 10px;
+        margin-bottom: 30px;
+    }
+
+    .card .nav-btn {
+        margin-top: 50px;
+    }
+
+    .feature-content.btn-bottom {
+        margin-top: 65.5vh;
+    }
+
+    .btn-bottom2 {
+        margin-top: 35.5vh;
+        display: block;
+    }
+
+    .card5 .title {
+        background-color: #191919;
+    }
+
+    .card5 .title h2 {
+        color: #ff7300;
+    }
+
+    .card5 p {
+        margin-top: -0vh;
+        width: 100%;
+        line-height: 2rem;
+        margin-bottom: 2.5vh;
+    }
+
+    .card2.feature-content2 p {
+        text-align: justify;
+        padding: 2rem;
+        line-height: 2.2rem;
+        font-size: 1.4rem;
+        font-weight: normal;
+        color: #ffffff;
+    }
+
+    /* Service-section */
+    .service-section {
+        width: 100%;
+        margin-top: 150px;
+        min-height: 100vh;
+    }
+
+    .service-heading {
+        width: 100%;
+        height: 70vh;
+        background-color: #ff7300;
+    }
+
+    .service-heading h1 {
+        color: rgb(34, 33, 33);
+        text-align: center;
+        padding-top: 50px;
+        font-size: 45px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    .service-heading hr {
+        margin-top: 30px;
+        width: 30%;
+        margin-left: auto;
+        margin-right: auto;
+        border: 1px solid #ffffff;
+    }
+
+    .card-section {
+        width: 100%;
+        height: auto;
+        display: flex;
+        margin: -150px 30px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 30px;
+    }
+
+    .service-card {
+        width: 40%;
+        height: 60vh;
+        border: 4px #fff solid;
+        opacity: 10;
+        background-color: #ffffff;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .service-card p {
+        display: grid;
+        place-items: center;
+        color: #fff;
+        font-size: 30px;
+        margin-top: 30%;
+        font-weight: 700;
+        opacity: 1;
+    }
+
+    .card3 {
+        background-image: url('/assects/s1.jpg');
+        background-position: center;
+        background-size: cover;
+        opacity: 0.9;
+        border-bottom-left-radius: 50px;
+        transition: 0.5s;
+    }
+
+    .card4 {
+        background-image: url('/assects/s2.jpg');
+        background-position: center;
+        background-size: cover;
+        opacity: 0.9;
+        border-top-right-radius: 50px;
+        transition: 0.5s;
+    }
+
+    /* fOOTER */
+    .footer {
+        width: 100%;
+    }
+
+    .footer-top {
+        height: 8vh;
+        background-color: #ff7300;
+        color: #fff;
+        padding: 15px;
+    }
+
+    .footer-top a {
+        padding: 10px 10px;
+        color: #ffff;
+    }
+
+    .footer-top a:hover {
+        color: #333;
+    }
+
+    .footer-last {
+        float: right;
+    }
+
+    .footer-bottom {
+        color: #ffffff;
+        display: grid;
+        place-items: center;
+        height: 8vh;
+        background-color: #191919;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .slider-content span {
+        margin-left: -8%;
+    }
+
+    nav ul li {
+        display: none;
+    }
+
+    .checkbtn {
+        display: block;
+        margin-top: 50px;
+    }
+
+    .nav-btn {
+        display: none;
+    }
+
+    .card {
+        min-height: 90rem;
+    }
+
+    .footer {
+        margin-top: 10rem;
+    }
+}
+
+
+/* Responsive */
+
+@media screen and (max-width: 768px) {
+    body {
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    header {
+        width: 100%;
+    }
+
+    
+
+    /* Slider */
+    .slider-section {
+        width: 100%;
+        object-fit: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
+    .slider-content span {
+        display: flex;
+        margin-top: 30%;
+        font-size: 2.5rem;
+        color: #ffff;
+        text-align: center;
+        margin-left: -10%;
+    }
+
+    /* production-section */
+    .production-section {
+        width: 100%;
+        min-height: 100vh;
+        margin-top: 90vh;
+    }
+
+    .production-heading {
+        width: 100%;
+        height: 70vh;
+        background-color: #fffefe;
+    }
+
+    .production-heading h1 {
+        color: #ffff;
+        text-align: center;
+        padding-top: 50px;
+        font-size: 45px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    .production-heading hr {
+        margin-top: 30px;
+        width: 30%;
+        margin-left: auto;
+        margin-right: auto;
+        border: 1px solid #ff7300;
+    }
+
+    .card-section {
+        width: 100%;
+        min-height: auto;
+        display: flex;
+        margin: 150px 30px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 30px;
+    }
+
+    .card h2 {
+        color: #ffff;
+        text-align: center;
+        margin-top: 25PX;
+    }
+
+    .card {
+        width: 30%;
+        min-height: 340vh;
+        border: #ff7300 1px solid;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 250px;
+    }
+
+    .card .title {
+        background-color: #ff7300;
+        margin-top: -25px;
+    }
+
+    .card .title h2 {
+        color: #191919;
+    }
+
+    .card .title h2 {
+        padding-top: 10px;
+        font-family: 'Courier New', Courier, monospace;
+        font-weight: bold;
+        font-size: 32px;
+        color: #020202;
+    }
+
+    .card1 .title {
+        background-color: #191919;
+    }
+
+    .card1 .title h2 {
+        color: #ff7300;
+    }
+
+    .card2 .title h2 {
+        color: #ff7300;
+    }
+
+    .card2 .title {
+        background-color: #191919;
+    }
+
+    .card h2 {
+        color: #ffff;
+        text-align: center;
+        margin-top: 25px;
+    }
+
+    .card img {
+        width: 100%;
+        margin-top: 10px;
+    }
+
+    .feature-section {
+        padding-top: 30px;
+        height: 60vh;
+        border-radius: 0;
+    }
+
+    .card .feature-section {
+        background-color: #191919;
+        color: #f1f1f1;
+        text-align: center;
+    }
+
+    .card .feature-section p,
+    .feature-section2 p {
+        font-size: 1.2rem;
+        padding: 10px;
+        font-family: serif;
+    }
+
+    .card .feature-section span,
+    .feature-section2 span {
+        font-size: 3.2rem;
+        font-weight: bold;
+    }
+
+    .card1 .feature-section {
+        background-color: #ff7300;
+        color: #f1f1f1;
+    }
+
+    .card2 .feature-section {
+        background-color: #ff7300;
+        color: #f1f1f1;
+    }
+
+    .card1 .feature-section,
+    .card2 .feature-section {
+        text-align: center;
+    }
+
+    .feature-section2 {
+        text-align: center;
+        background-color: #ff7300;
+        color: #f1f1f1;
+        padding-top: 30px;
+        border-radius: 0;
+        height: 60vh;
+    }
+
+    .card1 .feature-section p,
+    .card2 .feature-section p {
+        font-size: 1.2rem;
+        padding: 10px;
+        font-family: serif;
+    }
+
+    .card1 .feature-section p,
+    .card2 .feature-section p {
+        font-size: 1.2rem;
+        padding: 10px;
+        font-family: serif;
+    }
+
+    .card1 .feature-section span,
+    .card2 .feature-section span {
+        font-size: 3.2rem;
+        font-weight: bold;
+    }
+
+    .feature-content {
+        width: 100%;
+        height: 67vh;
+        background-color: #fcfeff;
+    }
+
+    .card .feature-content,
+    .card1 .feature-content,
+    .card2 .feature-content {
+        text-align: justify;
+        padding: 2rem;
+        line-height: 2.2rem;
+        font-size: 1.4rem;
+        font-weight: normal;
+        color: #191919;
+    }
+
+    .card .feature-content .nav-btn,
+    .card1 .feature-content .nav-btn,
+    .card2 .feature-content .nav-btn {
+        text-align: center;
+        width: 100%;
+        margin-top: 10px;
+        margin-bottom: 30px;
+    }
+
+    .card .nav-btn {
+        margin-top: 50px;
+    }
+
+    .feature-content.btn-bottom {
+        margin-top: 65.5vh;
+    }
+
+    .btn-bottom2 {
+        margin-top: 35.5vh;
+        display: block;
+    }
+
+    .card5 .title {
+        background-color: #191919;
+    }
+
+    .card5 .title h2 {
+        color: #ff7300;
+    }
+
+    .card5 p {
+        margin-top: -0vh;
+        width: 100%;
+        line-height: 2rem;
+        margin-bottom: 2.5vh;
+    }
+
+    .card2.feature-content2 p {
+        text-align: justify;
+        padding: 2rem;
+        line-height: 2.2rem;
+        font-size: 1.4rem;
+        font-weight: normal;
+        color: #ffffff;
+    }
+
+    /* Service-section */
+    .service-section {
+        width: 100%;
+        margin-top: 150px;
+        min-height: 100vh;
+    }
+
+    .service-heading {
+        width: 100%;
+        height: 70vh;
+        background-color: #ff7300;
+    }
+
+    .service-heading h1 {
+        color: rgb(34, 33, 33);
+        text-align: center;
+        padding-top: 50px;
+        font-size: 45px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    .service-heading hr {
+        margin-top: 30px;
+        width: 30%;
+        margin-left: auto;
+        margin-right: auto;
+        border: 1px solid #ffffff;
+    }
+
+    .card-section {
+        width: 100%;
+        height: auto;
+        display: flex;
+        margin: -150px 30px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 30px;
+    }
+
+    .service-card {
+        width: 40%;
+        height: 60vh;
+        border: 4px #fff solid;
+        opacity: 10;
+        background-color: #ffffff;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .service-card p {
+        display: grid;
+        place-items: center;
+        color: #fff;
+        font-size: 30px;
+        margin-top: 30%;
+        font-weight: 700;
+        opacity: 1;
+    }
+
+    .card3 {
+        background-image: url('/assects/s1.jpg');
+        background-position: center;
+        background-size: cover;
+        opacity: 0.9;
+        border-bottom-left-radius: 50px;
+        transition: 0.5s;
+    }
+
+    .card4 {
+        background-image: url('/assects/s2.jpg');
+        background-position: center;
+        background-size: cover;
+        opacity: 0.9;
+        border-top-right-radius: 50px;
+        transition: 0.5s;
+    }
+
+    /* fOOTER */
+    .footer {
+        width: 100%;
+    }
+
+    .footer-top {
+        height: 8vh;
+        background-color: #ff7300;
+        color: #fff;
+        padding: 15px;
+    }
+
+    .footer-top a {
+        padding: 10px 10px;
+        color: #ffff;
+    }
+
+    .footer-top a:hover {
+        color: #333;
+    }
+
+    .footer-last {
+        float: right;
+    }
+
+    .footer-bottom {
+        color: #ffffff;
+        display: grid;
+        place-items: center;
+        height: 8vh;
+        background-color: #191919;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    body {
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    header {
+        width: 100%;
+    }
+
+    
+    /* Slider */
+    .slider-section {
+        width: 100%;
+        object-fit: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
+    .slider-content span {
+        display: grid;
+        margin-top: 60%;
+        font-size: 1.6rem;
+        color: #ffff;
+        text-align: center;
+        width: 100%;
+        margin-left: -15%;
+    }
+
+    /* production-section */
+    .production-section {
+        width: 100%;
+        min-height: 100vh;
+        margin-top: 90vh;
+    }
+
+    .production-heading {
+        width: 100%;
+        height: 70vh;
+        background-color: #fffefe;
+    }
+
+    .production-heading h1 {
+        color: #ffff;
+        text-align: center;
+        padding-top: 50px;
+        font-size: 45px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    .production-heading hr {
+        margin-top: 30px;
+        width: 30%;
+        margin-left: auto;
+        margin-right: auto;
+        border: 1px solid #ff7300;
+    }
+
+    .card-section {
+        width: 100%;
+        min-height: auto;
+        display: flex;
+        margin: 150px 30px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 30px;
+        flex-direction: column;
+    }
+
+    .card h2 {
+        color: #ffff;
+        text-align: center;
+        margin-top: 25PX;
+    }
+
+    .card {
+        width: 95%;
+        min-height: 320vh;
+        border: #ff7300 1px solid;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 250px;
+    }
+
+    .card .title {
+        background-color: #ff7300;
+        margin-top: -25px;
+    }
+
+    .card .title h2 {
+        color: #191919;
+    }
+
+    .card .title h2 {
+        padding-top: 10px;
+        font-family: 'Courier New', Courier, monospace;
+        font-weight: bold;
+        font-size: 32px;
+        color: #020202;
+    }
+
+    .card1 .title {
+        background-color: #191919;
+    }
+
+    .card1 .title h2 {
+        color: #ff7300;
+    }
+
+    .card2 .title h2 {
+        color: #ff7300;
+    }
+
+    .card2 .title {
+        background-color: #191919;
+    }
+
+    .card h2 {
+        color: #ffff;
+        text-align: center;
+        margin-top: 25px;
+    }
+
+    .card img {
+        width: 100%;
+        margin-top: 10px;
+    }
+
+    .feature-section {
+        padding-top: 30px;
+        height: 60vh;
+        border-radius: 0;
+    }
+
+    .card .feature-section {
+        background-color: #191919;
+        color: #f1f1f1;
+        text-align: center;
+    }
+
+    .card .feature-section p,
+    .feature-section2 p {
+        font-size: 1.2rem;
+        padding: 10px;
+        font-family: serif;
+    }
+
+    .card .feature-section span,
+    .feature-section2 span {
+        font-size: 3.2rem;
+        font-weight: bold;
+    }
+
+    .card1 .feature-section {
+        background-color: #ff7300;
+        color: #f1f1f1;
+    }
+
+    .card2 .feature-section {
+        background-color: #ff7300;
+        color: #f1f1f1;
+    }
+
+    .card1 .feature-section,
+    .card2 .feature-section {
+        text-align: center;
+    }
+
+    .feature-section2 {
+        text-align: center;
+        background-color: #ff7300;
+        color: #f1f1f1;
+        padding-top: 30px;
+        border-radius: 0;
+        height: 60vh;
+    }
+
+    .card1 .feature-section p,
+    .card2 .feature-section p {
+        font-size: 1.2rem;
+        padding: 10px;
+        font-family: serif;
+    }
+
+    .card1 .feature-section p,
+    .card2 .feature-section p {
+        font-size: 1.2rem;
+        padding: 10px;
+        font-family: serif;
+    }
+
+    .card1 .feature-section span,
+    .card2 .feature-section span {
+        font-size: 3.2rem;
+        font-weight: bold;
+    }
+
+    .feature-content {
+        width: 100%;
+        height: 67vh;
+        background-color: #fcfeff;
+    }
+
+    .card .feature-content,
+    .card1 .feature-content,
+    .card2 .feature-content {
+        text-align: justify;
+        padding: 2rem;
+        line-height: 2.2rem;
+        font-size: 1.4rem;
+        font-weight: normal;
+        color: #191919;
+    }
+
+    .card .feature-content .nav-btn,
+    .card1 .feature-content .nav-btn,
+    .card2 .feature-content .nav-btn {
+        text-align: center;
+        width: 100%;
+        margin-top: 10px;
+        margin-bottom: 30px;
+    }
+
+    .card .nav-btn {
+        margin-top: 50px;
+    }
+
+    .feature-content.btn-bottom {
+        margin-top: 65.5vh;
+    }
+
+    .card .feature-content .btn-bottom {
+        margin-top: 20.5vh;
+    }
+
+    .card .feature-content .btn-bottom2 {
+        margin-top: 7.5vh;
+        display: block;
+    }
+
+    .card5 .title {
+        background-color: #191919;
+    }
+
+    .card5 .title h2 {
+        color: #ff7300;
+    }
+
+    .card5 p {
+        margin-top: -0vh;
+        width: 100%;
+        line-height: 2rem;
+        margin-bottom: 2.5vh;
+    }
+
+    .card2.feature-content2 p {
+        text-align: justify;
+        padding: 2rem;
+        line-height: 2.2rem;
+        font-size: 1.4rem;
+        font-weight: normal;
+        color: #ffffff;
+    }
+
+    /* Service-section */
+    .service-section {
+        width: 100%;
+        margin-top: 150px;
+        min-height: 100vh;
+    }
+
+    .service-heading {
+        width: 100%;
+        height: 70vh;
+        background-color: #ff7300;
+    }
+
+    .service-heading h1 {
+        color: rgb(34, 33, 33);
+        text-align: center;
+        padding-top: 50px;
+        font-size: 45px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    .service-heading hr {
+        margin-top: 30px;
+        width: 30%;
+        margin-left: auto;
+        margin-right: auto;
+        border: 1px solid #ffffff;
+    }
+
+    .card-section {
+        width: 100%;
+        height: auto;
+        display: flex;
+        margin: -150px 30px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 30px;
+    }
+
+    .service-card {
+        width: 40%;
+        height: 60vh;
+        border: 4px #fff solid;
+        opacity: 10;
+        background-color: #ffffff;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .service-card p {
+        display: grid;
+        place-items: center;
+        color: #fff;
+        font-size: 30px;
+        margin-top: 30%;
+        font-weight: 700;
+        opacity: 1;
+    }
+
+    .card3 {
+        background-image: url('/assects/s1.jpg');
+        background-position: center;
+        background-size: cover;
+        opacity: 0.9;
+        border-bottom-left-radius: 50px;
+        transition: 0.5s;
+    }
+
+    .card4 {
+        background-image: url('/assects/s2.jpg');
+        background-position: center;
+        background-size: cover;
+        opacity: 0.9;
+        border-top-right-radius: 50px;
+        transition: 0.5s;
+    }
+
+    /* fOOTER */
+    .footer {
+        width: 100%;
+    }
+
+    .footer-top {
+        height: 13vh;
+        background-color: #ff7300;
+        color: #fff;
+        padding: 15px;
+    }
+
+    .footer-top a {
+        padding: 5px 10px;
+        color: #ffff;
+        font-size: 0.8rem;
+        padding-bottom: 20px;
+    }
+
+    .footer-top a:hover {
+        color: #333;
+    }
+
+    .footer-last {
+        float: right;
+    }
+
+    .footer-bottom {
+        color: #ffffff;
+        display: grid;
+        place-items: center;
+        height: 8vh;
+        background-color: #191919;
+        width: 100%;
+    }
+}
